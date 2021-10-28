@@ -1,0 +1,47 @@
+.btn-medium {
+  font-weight: 100;
+  border: 1px solid;
+  border-radius: 32px;
+  color: rgba(220 240 240, 0.7);
+  opacity: 70%;
+  padding: 12px 24px
+}
+
+.btn-medium:hover {
+  opacity: 1;
+}
+
+.btn-treehouse {
+  font-weight: bold;
+  border: 2px solid;
+  border-radius: 6px;
+  border-color: #3BC162;
+  background-color: #3BC162;
+  color: rgba(220 240 240, 0.7);
+  opacity: 70%;
+  padding: 12px 24px;
+  transition: 0.5s;
+}
+
+.btn-treehouse:hover {
+  opacity: 1;
+}
+
+.btn-yours {
+  border: 1px solid;
+  font-weight: bold;
+  border-radius: 6px;
+  background-color: white;
+  color: rgba(220 240 240, 0.7);
+  opacity: 70%;
+  padding: 12px 24px;
+  transition: 10s;
+}
+
+.btn-yours:hover {
+  display: inline-block;
+  opacity: 0;
+  animation: fadeIn linear 12s;
+  background: center url('../images/9czE8pBbi.gif') no-repeat;
+  background-size: contain;
+}
